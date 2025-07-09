@@ -1,11 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-  <title>My First Website</title>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trà Sữa SweetTea</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff0f5;
+      color: #333;
+    }
+    header {
+      background-color: #ff69b4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #ffc0cb;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+    }
+    h2 {
+      color: #ff1493;
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .menu-item {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is a test page made by me.</p>
+
+  <header>
+    <h1>🥤 Trà Sữa SweetTea</h1>
+    <p>Ngon - Sạch - Ngọt ngào mỗi ngày!</p>
+  </header>
+
+  <nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#menu">Menu</a>
+    <a href="#lienhe">Liên hệ</a>
+  </nav>
+
+  <section id="gioithieu">
+    <h2>🌟 Giới thiệu</h2>
+    <p>Chúng tôi là quán trà sữa với nguyên liệu tự nhiên, phục vụ hàng trăm khách mỗi ngày tại trung tâm thành phố. Trà tươi, topping nhà làm và không gian trẻ trung đang chờ bạn!</p>
+  </section>
+
+  <section id="menu">
+    <h2>📋 Menu</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Trà sữa trân châu</h3>
+        <p>30.000đ</p>
+      </div>
+      <div class="menu-item">
+        <h3>Trà xoài kem cheese</h3>
+        <p>35.000đ</p>
+      </div>
+      <div class="menu-item">
+        <h3>Matcha latte</h3>
+        <p>32.000đ</p>
+      </div>
+      <div class="menu-item">
+        <h3>Trà dâu hạt chia</h3>
+        <p>28.000đ</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="lienhe">
+    <h2>📞 Liên hệ</h2>
+    <p>Địa chỉ: 123 Nguyễn Văn Cừ, Quận 5, TP.HCM</p>
+    <p>Hotline: 0909 123 456</p>
+    <p>Facebook: fb.com/trasuasweettea</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Trà Sữa SweetTea. All rights reserved.
+  </footer>
+
 </body>
 </html>
